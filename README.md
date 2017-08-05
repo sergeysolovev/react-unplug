@@ -78,7 +78,7 @@ Done! Wired promises' onFulfilled, onRejected handlers won't be called once the 
 
 ## Running the tests
 
-```
+```shell
 # with npm
 npm test
 
@@ -89,6 +89,10 @@ yarn test
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+[SemVer](http://semver.org/) is used for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## License
 
