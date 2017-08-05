@@ -1,11 +1,11 @@
 {
   "name": "react-unplug",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Promise-wrapper to manage the state of react components",
   "scripts": {
     "test": "jest",
     "build": "babel src --out-dir dist",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "main": "dist/unplug.js",
   "repository": {
