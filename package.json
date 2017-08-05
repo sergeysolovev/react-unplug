@@ -1,0 +1,31 @@
+{
+  "name": "react-unplug",
+  "version": "0.1.0",
+  "description": "Promise-wrapper to manage the state of react components",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeysolovev/react-unplug.git"
+  },
+  "keywords": [
+    "react",
+    "promise",
+    "es6",
+    "es2015",
+    "javascript"
+  ],
+  "author": "Sergey Solovev <me@sergeysolovev.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergeysolovev/react-unplug/issues"
+  },
+  "homepage": "https://github.com/sergeysolovev/react-unplug#readme",
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-es2015": "6.24.1",
+    "jest": "20.0.4",
+    "regenerator-runtime": "0.10.5"
+  }
+}
