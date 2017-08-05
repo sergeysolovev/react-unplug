@@ -1,6 +1,6 @@
 {
   "name": "react-unplug",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Promise-wrapper to manage the state of react components",
   "scripts": {
     "test": "jest"
