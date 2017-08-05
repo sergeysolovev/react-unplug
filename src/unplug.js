@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   socket() {
     const plugged = new Set();
     return {
