@@ -4,7 +4,7 @@ Inspired by [this](https://facebook.github.io/react/blog/2015/12/16/ismounted-an
 
 ## Installation
 
-```
+```shell
 # npm
 npm install react-unplug
 
@@ -15,10 +15,10 @@ yarn add react-unplug
 ## Overview
 
 For React components, that use [fetch](https://developer.mozilla.org/en/docs/Web/API/Fetch_API) to update the state, unmounting can lead to the following issue:
-```
-setState(…): Can only update a mounted or mounting component.
-This usually means you called setState() on an unmounted component. This is a no-op
-```
+
+>setState(…): Can only update a mounted or mounting component.
+>This usually means you called setState() on an unmounted component. This is a no-op
+
 The correct way to fix this issue, according to [the article](https://facebook.github.io/react/blog/2015/12/16/ismounted-antipattern.html), is to cancel any callbacks in `componentWillUnmount`, prior to unmounting.
 
 React-unplug uses the idea of *socket–plug–unplug* to prevent setting the state of a react component once it is told to do so.
